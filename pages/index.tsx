@@ -6,9 +6,7 @@ import { Header } from "../components/Header";
 import { LargeCard } from "../components/LargeCard";
 import { MediumCard } from "../components/MediumCard";
 import { SmallCard } from "../components/SmallCard";
-import SmallCardItem from "./types/types";
-import MediumCardItem from "./types/types";
-// import { MediumCardItem, SmallCardItem } from "./types/types";
+import { MediumCardItem, SmallCardItem } from "../types/types";
 
 // Removed ': NextPage' from 'const Home' below
 const Home = ({
