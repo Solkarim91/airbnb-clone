@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { MediumCardItem } from "../pages/types/types";
+import MediumCardItem from "../pages/types/types";
 
 export const MediumCard = ({ img, title }: MediumCardItem) => {
   return (
