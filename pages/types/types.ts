@@ -1,15 +1,15 @@
-export interface SmallCardItem {
+export default interface SmallCardItem {
   distance: string;
   img: string;
   location: string;
 }
 
-export interface MediumCardItem {
+export default interface MediumCardItem {
   img: string;
   title: string;
 }
 
-export interface LargeCardItem {
+export default interface LargeCardItem {
   img: string;
   title: string;
   description: string;
