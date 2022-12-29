@@ -1,4 +1,4 @@
-import { LargeCardItem } from "../pages/types";
+import { LargeCardItem } from "../pages/types/types";
 import Image from "next/image";
 
 export const LargeCard = ({

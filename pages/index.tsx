@@ -1,4 +1,4 @@
-import type { InferGetStaticPropsType, GetStaticProps, NextPage } from "next";
+import type { InferGetStaticPropsType } from "next";
 import Head from "next/head";
 import { Banner } from "../components/Banner";
 import { Footer } from "../components/Footer";
@@ -6,7 +6,7 @@ import { Header } from "../components/Header";
 import { LargeCard } from "../components/LargeCard";
 import { MediumCard } from "../components/MediumCard";
 import { SmallCard } from "../components/SmallCard";
-import { MediumCardItem, SmallCardItem } from "./types";
+import { MediumCardItem, SmallCardItem } from "./types/types";
 
 // Removed ': NextPage' from 'const Home' below
 const Home = ({
